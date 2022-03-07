@@ -1,0 +1,13 @@
+The cleaning_log for Bellabeat - Case study :
+
+* changing the format of the "activity_date" column from DateTime to date in the dailyActvity_merged file.
+
+* changing the format of "SleepDay" column from General to date in the SleepDay_merged file.
+
+* merging two columns the "id" column and the "ActivityDate" column in the dailyActivity_merged file.
+
+* merging two columns the "id" column and the "SleepDay" column in the sleepDay_merged file.
+
+* using VLOOKUP to link the  "TotalSleepRecords" and "TotalMinutesAsleep" and "TotalTimeInBed" in the sleepDay_merged file to the dailyActivity_merged by 
+  the new columns created in the third step and fourth in the two files.
+
